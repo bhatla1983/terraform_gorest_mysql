@@ -1,0 +1,4 @@
+DROP DATABASE IF EXISTS user;
+CREATE DATABASE user;
+USE user;
+CREATE TABLE person (id INT NOT NULL, lastname VARCHAR(255), firstname VARCHAR(255), city VARCHAR(255), PRIMARY KEY (id));
